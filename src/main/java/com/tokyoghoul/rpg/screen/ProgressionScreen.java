@@ -131,16 +131,20 @@ public class ProgressionScreen extends Screen {
     private void drawInfo(GuiGraphics g,int mx,int my){
         if(hovered==null) return;
         int x=width-300,y=70,w=276,h=150;
-        g.fill(x,y,x+w,y+h,0xF0121217); g.fill(x,y,x+w,y+3,0xFFE13D51);
+        g.fill(x,y,x+w,y+h,0xF0121217);
+        g.fill(x,y,x+w,y+3,0xFFE13D51);
+        
         g.drawString(font,hovered.name,x+14,y+14,0xFFFFFFFF,true);
+        
         int yy=y+36;
-      font.drawWordWrap(
+        
+     for (FormattedCharSequence line : font.split(
     Component.literal(hovered.desc()),
-    x + 14,
-    y + 36,
-    w - 28,
-    0xFFC7C7C7
-);
+    w - 28
+)) {
+    g.drawString(font, line, x + 14, y + 36, 0xFFC7C7C7, false);
+    break;
+}
     }
     private int screenX(int x){return (int)(width/2 + panX + x*zoom);}
     private int screenY(int y){return (int)(68 + panY + y*zoom);}
