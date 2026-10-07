@@ -8,6 +8,8 @@ import com.tokyoghoul.rpg.network.UpgradePacket;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.FormattedCharSequence;
+import net.minecraft.network.chat.Style;
 
 import java.util.ArrayList;
 import java.util.List;
