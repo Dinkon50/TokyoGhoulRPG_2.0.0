@@ -1,0 +1,151 @@
+{
+  "textures": {
+    "0": "tokyoghoulrpg:item/rc_injector"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        1,
+        9
+      ],
+      "to": [
+        9,
+        14,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0"
+        },
+        "south": {
+          "texture": "#0"
+        },
+        "east": {
+          "texture": "#0"
+        },
+        "west": {
+          "texture": "#0"
+        },
+        "up": {
+          "texture": "#0"
+        },
+        "down": {
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        2,
+        10
+      ],
+      "to": [
+        10,
+        5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0"
+        },
+        "south": {
+          "texture": "#0"
+        },
+        "east": {
+          "texture": "#0"
+        },
+        "west": {
+          "texture": "#0"
+        },
+        "up": {
+          "texture": "#0"
+        },
+        "down": {
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        14,
+        9
+      ],
+      "to": [
+        9,
+        16,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0"
+        },
+        "south": {
+          "texture": "#0"
+        },
+        "east": {
+          "texture": "#0"
+        },
+        "west": {
+          "texture": "#0"
+        },
+        "up": {
+          "texture": "#0"
+        },
+        "down": {
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -80,
+        20,
+        -15
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -80,
+        20,
+        15
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "gui": {
+      "rotation": [
+        20,
+        35,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  }
+}
