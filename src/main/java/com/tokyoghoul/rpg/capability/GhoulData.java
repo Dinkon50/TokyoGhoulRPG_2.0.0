@@ -145,7 +145,9 @@ public class GhoulData {
             case "kagune5" -> kagune >= 4;
             case "regen3" -> regen >= 2;
             case "regen4" -> regen >= 3;
+            case "stealth1" -> true;
             case "stealth2" -> true;
+            case "stealth3" -> true;
             case "investigation3" -> investigation >= 2;
             case "quinque3" -> quinque >= 2;
             case "tactics3" -> tactics >= 2;
