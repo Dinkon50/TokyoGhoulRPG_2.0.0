@@ -140,6 +140,7 @@ public class ProgressionScreen extends Screen {
     g.drawString(font, line, x + 14, yy, 0xFFC7C7C7, false);
     yy += 12;
 }
+    }
     private int screenX(int x){return (int)(width/2 + panX + x*zoom);}
     private int screenY(int y){return (int)(68 + panY + y*zoom);}
 
